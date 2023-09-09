@@ -9,6 +9,8 @@ body {
   min-height: 100vh;
   background-color: #cccccc;
   background-image: url("bg.jpeg");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   text-align: center;
